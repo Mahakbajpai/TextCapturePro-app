@@ -1,28 +1,28 @@
-# 📸 TextCapturePro – OCR Based Text Recognition App
+#  TextCapturePro – OCR Based Text Recognition App
 
 TextCapturePro is an Android application that extracts text from images using Optical Character Recognition (OCR). It enables users to capture, edit, save, and share text easily from images such as documents, notes, and posters.
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 
 TextCapturePro is designed to simplify text extraction using modern OCR technology. It uses **Google ML Kit** to recognize text efficiently and accurately from images captured via camera or selected from the gallery.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📷 Capture text using device camera  
-- 🖼️ Extract text from gallery images  
-- ✂️ Crop and preprocess images before scanning  
-- ✍️ Edit recognized text  
-- 💾 Save extracted text locally  
-- 📤 Share text easily  
-- 🕒 View previously scanned text  
+-  Capture text using device camera  
+-  Extract text from gallery images  
+-  Crop and preprocess images before scanning  
+-  Edit recognized text  
+-  Save extracted text locally  
+-  Share text easily  
+-  View previously scanned text  
 
 ---
 
-## 🧠 Technology Stack
+##  Technology Stack
 
 | Category | Technology |
 |--------|------------|
@@ -36,7 +36,7 @@ TextCapturePro is designed to simplify text extraction using modern OCR technolo
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. User selects **Camera** or **Gallery**
 2. Image is captured or uploaded
@@ -46,7 +46,7 @@ TextCapturePro is designed to simplify text extraction using modern OCR technolo
 
 ---
 
-## 💡 Use Cases
+##  Use Cases
 
 - Digitizing handwritten or printed notes  
 - Extracting text from images and posters  
@@ -55,7 +55,7 @@ TextCapturePro is designed to simplify text extraction using modern OCR technolo
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 TextCapturePro/
 │
@@ -70,14 +70,14 @@ TextCapturePro/
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Mahak Bajpai**  
 B.Tech (CSE) | Android Developer | AI & ML Enthusiast  
 
 ---
 
-## ⭐ Future Enhancements
+##  Future Enhancements
 
 - Handwritten text recognition  
 - Multi-language OCR support  
@@ -86,7 +86,7 @@ B.Tech (CSE) | Android Developer | AI & ML Enthusiast
 
 ---
 
-## 📌 How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository  
    ```bash
@@ -98,8 +98,8 @@ B.Tech (CSE) | Android Developer | AI & ML Enthusiast
 
 4. Run on emulator or physical device
 
-📣 Note
+ Note
 
 This project is developed for learning and academic purposes and demonstrates practical use of OCR in Android applications.
 
-✨ If you like this project, don't forget to ⭐ star the repository!
+ If you like this project, don't forget to ⭐ star the repository!
