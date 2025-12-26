@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- 🔵 Primary (Toolbar / Highlights) -->
+    <color name="deep_blue">#2B5876</color> <!-- Deep blue -->
+
+    <!-- 🟣 Secondary (Buttons / Accent) -->
+    <color name="purple_blue">#4E4376</color> <!-- Purple-blue -->
+
+    <!-- 🌑 App Background (Main Scanner Screen) -->
+    <color name="app_background">#1F1C2C</color>
+    <color name="white">#FFFFFF</color><!-- Dark background -->
+
+    <!-- 🌈 Gradient (Scanner background) -->
+    <color name="gradient_start">#2B5876</color>
+    <color name="gradient_center">#4E4376</color>
+    <color name="gradient_end">#1F1C2C</color>
+
+    <!-- 🧾 Surface (Cards / Text Areas) -->
+    <color name="surface">#FFFFFF</color>
+
+    <!-- 🪟 Glass Button -->
+    <color name="glass_button">#40FFFFFF</color>
+
+    <!-- ✏️ Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#DDFFFFFF</color>
+    <color name="text_dark">#212121</color>
+
+    <!-- 🚨 Error -->
+    <color name="error_red">#FF5252</color>
+
+</resources>

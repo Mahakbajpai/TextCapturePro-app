@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary (Orange) -->
+        <item name="colorPrimary">@color/deep_blue</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Secondary (Green) -->
+        <item name="colorSecondary">@color/purple_blue</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/deep_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+
+</resources>

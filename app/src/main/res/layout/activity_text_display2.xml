@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface">
+
+    <!-- Top App Bar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/deep_blue"
+        android:titleTextColor="@color/white"
+        app:title="Extracted text"
+
+        app:navigationIcon="@android:drawable/ic_menu_revert"
+        app:menu="@menu/text_menu"/>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Recognized Text -->
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Recognized Text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextRecognized"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minLines="8"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:textColor="@android:color/black"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Action Buttons Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:weightSum="3">
+
+                <!-- Edit Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Edit"
+                    android:textColor="@android:color/white"
+                    app:icon="@drawable/ic_edit"
+                    app:iconTint="@android:color/white"
+                    android:backgroundTint="@color/purple_blue"
+                    android:layout_marginEnd="6dp"/>
+
+                <!-- Save PDF Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSavePdf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="PDF"
+                    android:textColor="@android:color/white"
+                    app:icon="@drawable/ic_pdf"
+                    app:iconTint="@android:color/white"
+                    android:backgroundTint="@color/deep_blue"
+                    android:layout_marginEnd="6dp"/>
+
+                <!-- Save TXT Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSavetxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Text"
+                    android:textColor="@android:color/white"
+                    app:icon="@drawable/ic_file"
+                    app:iconTint="@android:color/white"
+                    android:backgroundTint="@color/purple_blue"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
